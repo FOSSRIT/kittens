@@ -8,6 +8,7 @@ setup(
     packages=['kittens'],
     url='http://pypi.python.org/pypi/kittens/',
     license='LICENSE',
+    install_requires=['requests'],
     description='A means of sending friendly images of kittens to a target.',
     long_description=open('README.md').read()
 )
